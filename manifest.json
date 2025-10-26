@@ -1,0 +1,61 @@
+{
+  "name": "Car Tuning AI",
+  "short_name": "Car Tuning AI",
+  "description": "Transform your car with AI-powered tuning suggestions, performance upgrades, and visual modifications. Get professional automotive advice instantly.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FF6B35",
+  "theme_color": "#FF6B35",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["automotive", "productivity", "lifestyle"],
+  "icons": [
+    {
+      "src": "car-tuning-app-logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "car-tuning-app-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "car-tuning-app-logo.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Car Tuning AI Landing Page"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://cartuning.app/"
+    },
+    {
+      "platform": "itunes",
+      "url": "https://apps.apple.com/us/app/car-tuning-ai/id6753362163"
+    }
+  ],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Download App",
+      "short_name": "Download",
+      "description": "Download Car Tuning AI from App Store",
+      "url": "https://apps.apple.com/us/app/car-tuning-ai/id6753362163",
+      "icons": [
+        {
+          "src": "car-tuning-app-logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}

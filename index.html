@@ -1,10 +1,833 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Car Tuning</title>
-  </head>
-  <body>
-    <h1>Welcome to Car Tuning</h1>
-    <p>This site is under construction.</p>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Tuning AI - Transform Your Ride | AI-Powered Car Customization App</title>
+    <meta name="description" content="Car Tuning AI is your ultimate companion for car customization and tuning. Transform your vehicle with AI-powered suggestions, performance upgrades, and visual modifications. Get professional tuning advice instantly.">
+    <meta name="keywords" content="car tuning, AI car customization, vehicle modification, car performance, automotive tuning, car upgrades, vehicle customization, car styling, performance tuning, automotive AI">
+    <meta name="author" content="Asil Arslan">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    
+    <!-- Additional SEO Meta Tags -->
+    <meta name="copyright" content="© 2025 Car Tuning AI by Asil Arslan">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="distribution" content="global">
+    <meta name="rating" content="general">
+    <meta name="coverage" content="Worldwide">
+    <meta name="target" content="all">
+    
+    <!-- Mobile Specific Meta Tags -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Car Tuning AI">
+    
+    <!-- Schema.org Additional Markup -->
+    <meta itemprop="name" content="Car Tuning AI">
+    <meta itemprop="description" content="Transform your car with AI-powered tuning suggestions, performance upgrades, and visual modifications. Get professional automotive advice instantly.">
+    <meta itemprop="image" content="car-tuning-app-logo.png">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cartuning.app/">
+    <meta property="og:title" content="Car Tuning AI - Transform Your Ride">
+    <meta property="og:description" content="Transform your car with AI-powered tuning suggestions, performance upgrades, and visual modifications. Get professional automotive advice instantly.">
+    <meta property="og:image" content="car-tuning-app-logo.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://cartuning.app/">
+    <meta property="twitter:title" content="Car Tuning AI - Transform Your Ride">
+    <meta property="twitter:description" content="Transform your car with AI-powered tuning suggestions, performance upgrades, and visual modifications. Get professional automotive advice instantly.">
+    <meta property="twitter:image" content="car-tuning-app-logo.png">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://cartuning.app/">
+
+    <!-- App Store Link -->
+    <meta name="apple-itunes-app" content="app-id=6753362163">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "Car Tuning AI",
+        "description": "Transform your car with AI-powered tuning suggestions, performance upgrades, and visual modifications. Get professional automotive advice instantly.",
+        "applicationCategory": "Automotive",
+        "operatingSystem": "iOS",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "downloadUrl": "https://apps.apple.com/us/app/car-tuning-ai/id6753362163",
+        "author": {
+            "@type": "Person",
+            "name": "Asil Arslan"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "ratingCount": "15"
+        }
+    }
+    </script>
+
+    <!-- Additional Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Car Tuning AI",
+        "url": "https://cartuning.app/",
+        "description": "Official website for Car Tuning AI - AI-powered car customization and tuning app",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Car Tuning AI",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "car-tuning-app-logo.png"
+            }
+        },
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://cartuning.app/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Car Tuning AI",
+        "url": "https://cartuning.app/",
+        "logo": "car-tuning-app-logo.png",
+        "sameAs": [
+            "https://apps.apple.com/us/app/car-tuning-ai/id6753362163"
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer service",
+            "email": "asilarslan93@gmail.com"
+        }
+    }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="car-tuning-app-logo.png">
+    <link rel="apple-touch-icon" href="car-tuning-app-logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="car-tuning-app-logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="car-tuning-app-logo.png">
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="car-tuning-app-logo.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="car-tuning-app-logo.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="car-tuning-app-logo.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="car-tuning-app-logo.png">
+    
+    <!-- Microsoft Tiles -->
+    <meta name="msapplication-TileColor" content="#FF6B35">
+    <meta name="msapplication-TileImage" content="car-tuning-app-logo.png">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#FF6B35">
+    <meta name="msapplication-navbutton-color" content="#FF6B35">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://tools.applemediaservices.com">
+    <link rel="dns-prefetch" href="https://tools.applemediaservices.com">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #FF6B35 0%, #F7931E 100%);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+            position: relative;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #FF6B35;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .header-logo {
+            width: 32px;
+            height: 32px;
+            border-radius: 6px;
+            padding: 2px;
+            box-shadow: 0 2px 6px rgba(255, 107, 53, 0.2);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #FF6B35;
+        }
+
+        .hero {
+            padding: 120px 0 80px;
+            text-align: center;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            opacity: 0.9;
+        }
+
+        .cta-button {
+            display: inline-block;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+        }
+
+        .app-store-badge {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .app-store-badge:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .features {
+            background: white;
+            padding: 80px 0;
+        }
+
+        .features h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #333;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .feature-card {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        .how-it-works {
+            background: linear-gradient(135deg, #E55A2B 0%, #FF6B35 100%);
+            padding: 80px 0;
+            color: white;
+        }
+
+        .how-it-works h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .step {
+            text-align: center;
+            padding: 1.5rem;
+        }
+
+        .step-number {
+            background: rgba(255, 255, 255, 0.2);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0 auto 1rem;
+        }
+
+        .testimonials {
+            background: white;
+            padding: 80px 0;
+        }
+
+        .testimonials h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #333;
+        }
+
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .testimonial {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        .testimonial p {
+            font-style: italic;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .testimonial-author {
+            font-weight: bold;
+            color: #FF6B35;
+        }
+
+        .cta-section {
+            background: linear-gradient(135deg, #FF6B35 0%, #F7931E 100%);
+            padding: 80px 0;
+            text-align: center;
+            color: white;
+        }
+
+        .cta-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .cta-section p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            opacity: 0.8;
+            transition: opacity 0.3s;
+        }
+
+        .footer-links a:hover {
+            opacity: 1;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            padding: 10px;
+            background: transparent;
+            border: none;
+            z-index: 999;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 3px;
+            background-color: #333;
+            margin: 3px 0;
+            transition: 0.3s;
+            border-radius: 2px;
+            display: block;
+        }
+
+        .nav-links.active {
+            display: flex;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                right: 0;
+                background: white;
+                flex-direction: column;
+                width: 200px;
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+                border-radius: 8px;
+                padding: 1rem;
+                gap: 1rem;
+                z-index: 1001;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .nav-links a {
+                padding: 0.5rem 0;
+                border-bottom: 1px solid #eee;
+            }
+
+            .nav-links a:last-child {
+                border-bottom: none;
+            }
+
+            .features-grid, .steps, .testimonial-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-logo {
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+        .seo-content {
+            background: white;
+            padding: 60px 0;
+        }
+
+        .seo-content h2 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        .seo-content p {
+            color: #666;
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        .keywords {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 10px;
+            margin: 2rem 0;
+        }
+
+        .keywords h3 {
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        .keywords ul {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 0.5rem;
+            list-style: none;
+        }
+
+        .keywords li {
+            background: white;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            color: #FF6B35;
+            border: 1px solid #FF6B35;
+        }
+
+        .hero-logo {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 2rem;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .premium-features {
+            background: #fff0e6;
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+            border: 2px solid #FF6B35;
+        }
+
+        .premium-features h3 {
+            color: #E55A2B;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .premium-features ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .premium-features li {
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            border-left: 4px solid #FF6B35;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .rating-badge {
+            background: #FF6B35;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            display: inline-block;
+            margin-bottom: 1rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="car-tuning-app-logo.png" alt="Car Tuning AI Logo" class="header-logo">
+                Car Tuning AI
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#download">Download</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <img src="car-tuning-app-logo.png" alt="Car Tuning AI Logo" class="hero-logo">
+                <h1>Transform Your Ride</h1>
+                <p>Car Tuning AI is your ultimate companion for car customization and tuning. Transform your vehicle with AI-powered suggestions, performance upgrades, and visual modifications. Get professional tuning advice instantly.</p>
+                <a href="https://apps.apple.com/us/app/car-tuning-ai/id6753362163" class="cta-button">
+                    <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1704153600" alt="Download on the App Store" class="app-store-badge">
+                </a>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2>Powerful AI Car Tuning Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🚗</div>
+                        <h3>AI-Powered Customization</h3>
+                        <p>Upload photos of your car and get personalized tuning suggestions based on your vehicle's make, model, and current modifications.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Performance Optimization</h3>
+                        <p>Get instant recommendations for engine tuning, suspension upgrades, and performance modifications tailored to your driving style.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎨</div>
+                        <h3>Visual Modifications</h3>
+                        <p>Discover body kits, wheel combinations, paint schemes, and styling options that perfectly match your car's personality.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💰</div>
+                        <h3>Cost Estimation</h3>
+                        <p>Get accurate pricing estimates for modifications and upgrades, helping you plan your tuning budget effectively.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔧</div>
+                        <h3>Installation Guides</h3>
+                        <p>Access step-by-step installation guides and professional tips for DIY modifications and upgrades.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>Performance Tracking</h3>
+                        <p>Monitor your car's performance improvements and track the impact of your modifications over time.</p>
+                    </div>
+                </div>
+
+                <div class="premium-features">
+                    <h3>🌟 Premium Features (In-App Purchase)</h3>
+                    <ul>
+                        <li>✅ Unlimited AI consultations</li>
+                        <li>✅ Advanced performance analysis</li>
+                        <li>✅ Detailed modification guides</li>
+                        <li>✅ Priority AI processing</li>
+                        <li>✅ Custom tuning profiles</li>
+                        <li>✅ Weekly Plan: $4.99</li>
+                        <li>✅ Annual Plan: $24.99</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="how-it-works">
+            <div class="container">
+                <h2>How Car Tuning AI Works</h2>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h3>Upload Your Car</h3>
+                        <p>Take photos of your vehicle from different angles or upload existing images from your gallery</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h3>AI Analysis</h3>
+                        <p>Our advanced AI analyzes your car's current state and identifies optimization opportunities</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h3>Get Recommendations</h3>
+                        <p>Receive personalized tuning suggestions, cost estimates, and detailed modification plans</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2>What Car Enthusiasts Say</h2>
+                <div class="testimonial-grid">
+                    <div class="testimonial">
+                        <p>"This app transformed my Civic! The AI suggestions were spot-on and saved me thousands in trial and error. Highly recommended for any car enthusiast!"</p>
+                        <div class="testimonial-author">- Jake M., Honda Enthusiast</div>
+                    </div>
+                    <div class="testimonial">
+                        <p>"Perfect for planning my Mustang build! The performance recommendations and cost estimates helped me stay within budget while maximizing gains."</p>
+                        <div class="testimonial-author">- Sarah L., Ford Mustang Owner</div>
+                    </div>
+                    <div class="testimonial">
+                        <p>"As a beginner in car tuning, this app gave me the confidence to start modifying my car. The guides are clear and the AI advice is invaluable!"</p>
+                        <div class="testimonial-author">- Mike R., New Tuner</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="seo-content">
+            <div class="container">
+                <h2>The Ultimate AI-Powered Car Tuning Platform</h2>
+                <p>Car Tuning AI revolutionizes how automotive enthusiasts customize and tune their vehicles. Our cutting-edge artificial intelligence technology analyzes thousands of car modifications across dozens of popular makes and models to provide accurate tuning recommendations.</p>
+                
+                <p>Whether you're a performance enthusiast, visual modifier, or simply someone who wants to personalize their ride, our AI-powered platform delivers professional-grade tuning advice directly on your device.</p>
+
+                <h2>Perfect for Car Customization Worldwide</h2>
+                <p>Car enthusiasts, tuners, and automotive professionals worldwide trust Car Tuning AI for their vehicle modification needs. The app supports various car categories and provides instant results, making it perfect for any tuning project.</p>
+
+                <div class="keywords">
+                    <h3>Key Car Tuning Features</h3>
+                    <ul>
+                        <li>AI Car Analysis</li>
+                        <li>Performance Tuning</li>
+                        <li>Visual Modifications</li>
+                        <li>Cost Estimation</li>
+                        <li>Installation Guides</li>
+                        <li>Brand Compatibility</li>
+                        <li>Custom Profiles</li>
+                        <li>Progress Tracking</li>
+                        <li>Professional Advice</li>
+                        <li>Budget Planning</li>
+                        <li>Modification History</li>
+                        <li>Community Features</li>
+                    </ul>
+                </div>
+
+                <h2>Advanced AI Technology for Accurate Results</h2>
+                <p>Our proprietary machine learning algorithms have been trained on thousands of car modifications, ensuring high accuracy in tuning recommendations. The app continuously learns and improves, expanding its vehicle coverage with regular updates.</p>
+
+                <p>Car Tuning AI works seamlessly on iPhone, iPad, and Mac, making it perfect for use at home, in the garage, or while shopping for parts. The app's intuitive interface ensures that users of all technical levels can customize their cars with confidence.</p>
+            </div>
+        </section>
+
+        <section id="download" class="cta-section">
+            <div class="container">
+                <h2>Start Your Tuning Journey Today</h2>
+                <p>Join thousands of car enthusiasts who trust Car Tuning AI for their vehicle customization needs</p>
+                <a href="https://apps.apple.com/us/app/car-tuning-ai/id6753362163" class="cta-button">
+                    <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1704153600" alt="Download on the App Store" class="app-store-badge">
+                </a>
+                <br><br>
+                <p style="font-size: 0.9rem; opacity: 0.8;">Compatible with iPhone, iPad, and Mac • iOS 17.5+ Required • Free with Premium Options</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="mailto:asilarslan93@gmail.com">Support</a>
+                <a href="terms-of-use.html">Terms of Use</a>
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <a href="https://apps.apple.com/us/app/car-tuning-ai/id6753362163">App Store</a>
+            </div>
+            <p>&copy; 2025 Car Tuning AI by Asil Arslan. All rights reserved.</p>
+            <p>Transform your car with AI-powered tuning technology.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            console.log('Menu toggle clicked');
+            const navLinks = document.getElementById('navLinks');
+            if (navLinks) {
+                navLinks.classList.toggle('active');
+                console.log('Menu active state:', navLinks.classList.contains('active'));
+            }
+        }
+
+        // Close menu when clicking on a link
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM loaded');
+            const navLinks = document.querySelectorAll('.nav-links a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    document.getElementById('navLinks').classList.remove('active');
+                });
+            });
+
+            // Close menu when clicking outside
+            document.addEventListener('click', function(e) {
+                const nav = document.querySelector('.nav-links');
+                const hamburger = document.querySelector('.hamburger');
+                if (nav && hamburger && !nav.contains(e.target) && !hamburger.contains(e.target)) {
+                    nav.classList.remove('active');
+                }
+            });
+        });
+
+        // PWA Service Worker Registration
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(function(registration) {
+                        console.log('SW registered: ', registration);
+                    })
+                    .catch(function(registrationError) {
+                        console.log('SW registration failed: ', registrationError);
+                    });
+            });
+        }
+
+        // Add to Home Screen Prompt
+        let deferredPrompt;
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+            // Show install button or banner here if needed
+        });
+    </script>
+</body>
 </html>
